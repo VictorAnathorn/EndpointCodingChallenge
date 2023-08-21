@@ -9,23 +9,6 @@ A command-line application that allows CRUD operations for virtual directories.
 - **Move Directories**: Move directories from one location to another.
 - **Delete Directories**: Remove directories and their sub-directories.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone git@github.com:VictorAnathorn/EndpointCodingChallenge.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd EndpointCodingChallenge
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## Running in an Isolated Environment
 
 To ensure that dependencies do not conflict, it's recommended to run this project in a virtual environment.
@@ -65,8 +48,6 @@ Replace `venv_name` with a name you'd like for your virtual environment. This wi
      venv_name\Scripts\Activate.ps1
      ```
 
-After activation, your terminal or command prompt should display the name of your virtual environment, confirming its activation.
-
 3. **Install project dependencies**:
 With the virtual environment activated, install the required dependencies:
 ```bash
@@ -76,7 +57,7 @@ pip install -r requirements.txt
 4. **Run the project**:
 With the virtual environment still active, you can now run the project:
 ```bash
-python directories.py
+python directories.py --default
 ```
 
 5. **Deactivate the virtual environment**:
